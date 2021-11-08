@@ -5,16 +5,56 @@ body, html {
 	padding: 0;
 }
 
+.intro_text {
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+.main_text {
+	padding-top: 5em;
+	font-size: 2em;
+}
+
 @font-face {
 	font-family: "aoe3font";
 	src: url("Aoe3Font/aoe3.ttf");
 }
 
-.page {
+@font-face {
+	font-family: "medievalfont";
+	src: url("omerta/omerta.ttf");
+}
+
+.aoe3_page {
+	position: relative;
+	text-align: center;
+	color: black;
+	font-family: "aoe3font";
+	font-size: 2em;
+}
+
+.medieval_page {
+	position: relative;
+	text-align: center;
+	color: black;
+	font-family: "medievalfont";
+	font-size: 4em;
+}
+
+.minecraft_page {
 	position: relative;
 	text-align: center;
 	color: white;
-	font-family: "aoe3font";
+	font-family: "medievalfont";
+	font-size: 4em;
+}
+
+
+.fantasy_page {
+	position: relative;
+	text-align: center;
+	color: black;
+	font-family: "Copperplate";
 	font-size: 2em;
 }
 
