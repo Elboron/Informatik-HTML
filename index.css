@@ -1,0 +1,81 @@
+.strategy_list {
+	color: red;
+	margin: 50pt;
+}
+
+.action_list {
+	margin: 50pt;
+}
+
+.navi {
+	display: flex;
+	background-color: red;
+	padding: 5px;
+	border-bottom: gray solid 1px;
+	height: 70px;
+}
+
+.navi li:not(.dropdown) {
+	display: inline;
+	list-style-type: none;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+ul {
+	margin: -1%;
+	padding: 0;
+	z-index: 100;
+}
+
+.bg_img {
+	margin-left: -8px;
+	margin-top: 8px;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+
+.navi_r {
+	display: flex;
+	color: yellow;
+	width: 50%;
+	justify-content: right !IMPORTANT;
+}
+
+.navi_r li a {
+	color:yellow;
+	text-decoration:none;
+}
+
+.navi_l {
+	display: flex;
+	color: yellow;
+	width: 50%;
+	justify-content: left !IMPORTANT;
+}
+
+.dropdown {
+	display: none;
+	background-color:red;
+	z-index:1000;
+	position:relative;
+}
+
+.dropdown ul li {
+	display:block !IMPORTANT;
+	color:yellow;
+}
+
+.dropdown ul li a {
+	color:green;
+	text-decoration:none;
+}
+
+.keineahnung:hover .dropdown {
+	display:block !IMPORTANT;
+}
+
+

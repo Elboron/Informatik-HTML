@@ -1,0 +1,56 @@
+body, html {
+	height: 100%;
+	position: center;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: "aoe3font";
+	src: url("Aoe3Font/aoe3.ttf");
+}
+
+.page {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-family: "aoe3font";
+	font-size: 2em;
+}
+
+.submenu {
+
+}
+
+.submenu ul {
+	list-style-type: none;
+}
+
+.submenu ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.bg_image {
+	height: 100%;
+}
+
+.bg_image img {
+	display: block;
+}
+
+.center-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.content {
+	position: relative;
+	top: 500px;
+}
+
+.content_start {
+
+}
